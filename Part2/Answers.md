@@ -45,7 +45,7 @@ Repository: The currently
 11. False: Broken code should not be commited to the main branch, if a developer knows the code is broken but needs to commit for some reason then they should push it to a branch
 12. True: If a developer has completed work on some change which is stable then they should commit before beginning a new task, as the newly added code may for one reason or 
 another need to be reverted and won't overlap and cause issues with other systems.
-13. DevOps: Standing for Development and Operations, is a methodology in software dev to integrate software development teams and IT teams.
+13. DevOps: Standing for Development and Operations, is a methodology in software dev to automate and integrate software development teams and IT teams 
 14. 
 
 GitHub:
@@ -53,5 +53,7 @@ GitHub:
 Bamboo (Atlassian):
 
 GitLab: 
-15. CI/CD standing for Continuous Integration and Continuous Deployment: Game CI is an example of a CI/CD system for specifically Unity. When set up, developers can commit their changes to the project and then have those changes be unit tested
+
+15. CI/CD standing for Continuous Integration and Continuous Deployment: CI/CD is a workflow where the process of unit testing, building and releasing software is automated by some tool.
+Game CI is an example of a CI/CD system for specifically Unity. When set up, developers can commit their changes to the project and then have those changes be unit tested
 on a remote server. When the unit tests are passed the server will build the game and if successful can upload the build to specified platforms (Itch.io, Steam, etc)
